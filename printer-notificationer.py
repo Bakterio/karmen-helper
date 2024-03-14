@@ -9,10 +9,6 @@ def get_token() -> str:
     return config_file.readline().strip()
 
 TOKEN = get_token()
-log = open('/home/bakterio/Programming/karmen-helper/log.txt', 'w')
-def print(text):
-    log.write(str(text) + '\n')
-    log.flush()
 
 def get_data(printer, attempt: int):
     try:
@@ -57,7 +53,7 @@ print(table)
 # last_data = {'aw84jyap': 0} # for testing, setting Bořislavka to not be printing
 # Main loop
 while True:
-    sleep(1)
+    sleep(30)
     table = BeautifulTable()
     table.columns.header = [str(datetime.now()), 'Status', 'Is printing?']
     for printer in PRINTERS:
