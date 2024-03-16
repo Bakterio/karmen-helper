@@ -8,6 +8,7 @@ The first one, `karmen-helper.py` is no longer under development and was meant t
 The second one, `printer-notificationer.py` is functioning.
 ### Dependencies
 - [python 3](https://github.com/python/cpython) - for running the script 
+- [libnotify](https://gitlab.gnome.org/GNOME/libnotify) - for sending notifcations using notify-send.
 - [espeak](https://github.com/espeak-ng/espeak-ng) - speach to text library for notifying user, when printer stops printing (optional, but you need to comment the line in the script if you don't want to use it)
 
 ### Instalation
