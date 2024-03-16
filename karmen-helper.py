@@ -2,7 +2,7 @@ import requests
 from os import system
 
 # Fetching data
-TOKEN = "xD0BVO6Z2UhG79HPLtF0QNS4k9PyixjA33fxQsZNthA"
+TOKEN = "xD0BVO6Z2UhG79HPLtF0QNS4k9PyixjA33fxQsZNthA" # obviously not working token
 r = requests.get("https://backend.next.karmen.tech/api/2/users/me/groups/", headers= {"Authorization": f"Token {TOKEN}"})
 if r.status_code != 200:
     print('Falied connecting to Karmen servers')
