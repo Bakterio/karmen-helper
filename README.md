@@ -21,7 +21,6 @@ Run script using run.sh. It opens python virtual environment and run the .py scr
 - Give permitiones to run.sh using chmod 
     ```
     sudo chmod +x run.sh
-
     ```
 - Run script 
     ```
