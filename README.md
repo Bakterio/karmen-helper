@@ -15,7 +15,10 @@ Just clone this repo wherever you want.
 ```
 git clone https://github.com/Bakterio/karmen-helper.git
 ```
-
+Then put your **karmen token with read-all access** in token.txt
+```
+echo "your token here" >> token.txt
+```
 ### Usage
 Run script using run.sh. It opens python virtual environment and run the .py script.
 - Give permitiones to run.sh using chmod 
