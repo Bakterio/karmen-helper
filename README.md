@@ -9,9 +9,9 @@ The second one, `printer-notificationer.py` is functioning. It will send you a n
 ### Dependencies
 - [python 3](https://github.com/python/cpython) - for running the script 
 - [libnotify](https://gitlab.gnome.org/GNOME/libnotify) - for sending notifications using notify-send.
-- [espeak](https://github.com/espeak-ng/espeak-ng) - speach to text library for notifying user, when printer finished printing (optional, but you need to comment the line in the script if you don't want to use it)
+- [espeak](https://github.com/espeak-ng/espeak-ng) - speech to text library for notifying user, when printer finished printing (optional, but you need to comment the line in the script if you don't want to use it)
 
-### Instalation
+### Installation
 Just clone this repo wherever you want.
 ```
 git clone https://github.com/Bakterio/karmen-helper.git
@@ -22,7 +22,7 @@ echo "your token here" >> token.txt
 ```
 ### Usage
 Run script using run.sh. It opens python virtual environment and run the .py script.
-- Give permitiones to run.sh using chmod 
+- Give permissions to run.sh using chmod 
     ```
     sudo chmod +x run.sh
     ```
