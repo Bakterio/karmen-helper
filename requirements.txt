@@ -1,0 +1,9 @@
+beautifultable==1.1.0
+certifi==2024.2.2
+charset-normalizer==3.3.2
+dbus-next==0.2.3
+idna==3.6
+packaging==24.0
+requests==2.31.0
+urllib3==2.2.1
+wcwidth==0.2.13

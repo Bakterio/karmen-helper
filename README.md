@@ -21,6 +21,7 @@ Then put your **karmen token with read-all access** in token.txt
 echo "your token here" >> token.txt
 ```
 ### Usage
+#### Using venv
 Run script using run.sh. It opens python virtual environment and run the .py script.
 - Give permissions to run.sh using chmod 
     ```
@@ -30,3 +31,12 @@ Run script using run.sh. It opens python virtual environment and run the .py scr
     ```
     ./run.sh
     ```
+#### Without using venv
+Install python dependencies form requirements.txt
+```
+pip install -r requirements.txt
+```
+Then run pyhton scripts
+```
+python3 printer-notificationer.py
+```
